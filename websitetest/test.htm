@@ -1,0 +1,516 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" class="gr__sparxsystems_com"><!-- saved from url=(0029)http://www.helpandmanual.com/ --><head>
+<title>Create Toolbox Profiles [Enterprise Architect User Guide]</title>
+<meta name="keywords" content="Enterprise Architect, Sparx Systems, UML, Create,Create Toolbox Profile For MDG Technology,MDG Technology,MDG Technology Create Toolbox Profile For,Toolbox,Toolbox Page, Change Sequence In Profile,Toolbox Profile, Change Icon Order,Toolbox Profile, Change Toolbox Page Order,Toolbox Profile, Create For MDG Technology">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link type="text/css" href="Create%20Toolbox%20Profiles%20[Enterprise%20Architect%20User%20Guide]_files/default_002.css" rel="stylesheet">
+<style type="text/css">
+ A, A:Visited
+ {
+ color: #00F;
+ }
+ A:Active, A:Hover
+ {
+ color: #F00;
+ }
+ OL
+ {
+ margin: 5px 0 5px 48px;
+ }
+ UL
+ {
+ margin-bottom: 3px;
+ margin-top: 0;
+ }
+ #nsr
+ {
+ background-color: #D4DFFF;
+ }
+ #nsr A
+ {
+ text-decoration: none;
+ }
+ #mainbody
+ {
+ padding: 8px;
+ }
+ .p_BodyText
+ {
+ padding: 5px 0;
+ }
+</style>
+
+
+<link type="text/css" href="Create%20Toolbox%20Profiles%20[Enterprise%20Architect%20User%20Guide]_files/default.css" rel="stylesheet">
+<style>
+ .p_Heading1
+ {
+ background: #E9ECEE;
+ color: #2D5F9B;
+ font-size: 14px;
+ margin: 0;
+ padding: 1px;
+ text-align: center;
+ }
+ #sidebar-left .block LI A
+ {
+ background: #FFF;
+ color: #666;
+ font-weight: normal;
+ line-height: 1.333em;
+ margin: 0;
+ padding: 2px 0 1px 10px;
+ width: 189px;
+ }
+ #sidebar-left .block LI A:Hover
+ {
+ background: url('/images/layout/sideMenuRollover.gif') no-repeat 0px 7px;
+ color: #B3B3B3;
+ }
+ #sidebar-left .block UL
+ {
+ margin: 10px 0 !important;
+ }
+ #sidebar-left .block LI A:Link, #sidebar-left .block LI A:Visited
+ {
+ color: #003460 !important;
+ font-size: 0.666em !important;
+ }
+ #sidebar-left .block LI A:Active, #sidebar-left .block LI A:Hover
+ {
+ color: #0066CB !important;
+ }
+ #copyright
+ {
+ font-size: 9px;
+ margin-top: 10px;
+ }
+</style>
+<!--[if lte IE 6]>
+<link rel="stylesheet" type="text/css" href="/xtras/css/ie6.css" />
+<script language="javascript" type="text/javascript" src="/xtras/iepngfix_tilebg.js"></script>
+<![endif]-->
+
+
+<script type="text/javascript" src="Create%20Toolbox%20Profiles%20[Enterprise%20Architect%20User%20Guide]_files/helpman_topicinit.js"></script></head>
+<body data-gr-c-s-loaded="true">
+<div id="page">
+
+ <div id="page-inner">
+ <div id="header">
+ <div id="header-inner" class="clear-block">
+ <div id="logo-title">
+ <div id="logo">
+ <a rel="home" title="Home" href="http://www.sparxsystems.com/"></a>
+ </div>
+ </div>
+ </div>
+ </div>
+ <div id="main">
+ <div id="main-inner" class="clear-block">
+
+ <div id="content">
+ <div id="content-inner">
+
+
+ <div id="content-header">
+ <div class="breadcrumb">
+ <ul>
+ <li class="home"><a href="http://www.sparxsystems.com/"><img src="Create%20Toolbox%20Profiles%20[Enterprise%20Architect%20User%20Guide]_files/bcLogo.png" alt="Home" width="43" height="9" border="0"></a></li>
+ <li><a href="http://www.sparxsystems.com/enterprise_architect_user_guide/10/index.html">Index</a></li>
+<li><a href="http://www.sparxsystems.com/enterprise_architect_user_guide/10/extending_uml_models/extended_uml_models.html">Extending UML Models</a></li>
+<li><a href="http://www.sparxsystems.com/enterprise_architect_user_guide/10/extending_uml_models/introduction_2.html">MDG Technology SDK</a></li>
+<li><a href="http://www.sparxsystems.com/enterprise_architect_user_guide/10/extending_uml_models/mdgtechnologies_2.html">MDG Technologies - Creating</a></li>
+<li><a href="http://www.sparxsystems.com/enterprise_architect_user_guide/10/extending_uml_models/custom_toolboxes.html">Create Toolbox Profiles</a></li>
+<li><a href="http://www.sparxsystems.com/enterprise_architect_user_guide/10/extending_uml_models/toolbox_profiles.html">Create Toolbox Profiles</a></li>
+
+ </ul>
+ </div>
+ </div>
+ <div id="content-area" class="clear-block">
+ <div class="contentBox contentBoxPadding">
+
+
+ <h1 class="p_Heading1"><span class="f_Heading1">Create Toolbox Profiles</span></h1>
+
+
+
+ <p class="p_BodyText"><span class="f_BodyText">Within an MDG Technology
+ you can create multiple Toolbox Profiles. Each Toolbox Profile contains
+ definitions that determine what pages appear in the Toolbox when it is 
+opened, either by selection from the </span><span class="f_MenuKeyField">More tools</span><span class="f_BodyText">... option in the Diagram Toolbox, or by opening or creating a diagram of the type that is linked to the Toolbox Profile.</span></p>
+<p class="p_BodyHeading"><span class="f_BodyHeading">Create a Toolbox Profile</span></p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 5px 0px 10px 13px;"><table style="border: none; border-spacing:0px; border-collapse: collapse;" cellspacing="0" cellpadding="2" border="0">
+<tbody><tr style="text-align:left;vertical-align:top;">
+<th style="vertical-align:top; width:28px; background-color:#e3e6ed; border: solid 1px #999999;"><p class="p_Tableheader"><span class="f_Tableheader">Step</span></p>
+</th>
+<th style="vertical-align:top; width:588px; background-color:#e3e6ed; border: solid 1px #999999;"><p class="p_Tableheader"><span class="f_Tableheader">Action</span></p>
+</th>
+<th style="vertical-align:top; width:125px; background-color:#e3e6ed; border: solid 1px #999999;"><p class="p_Tableheader"><span class="f_Tableheader">See also</span></p>
+</th>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:28px; border: solid 1px #999999;"><p class="p_Tabletext"><span class="f_Tabletext" style="font-weight: bold;">1</span></p>
+</td>
+<td style="vertical-align:top; width:588px; border: solid 1px #999999;"><p class="p_Tabletext"><span class="f_Tabletext">In a Profile package, create a Class diagram with an appropriate name by which you can refer to it later, such as </span><span class="f_Tabletext" style="font-weight: bold;">MyClassDiagram</span><span class="f_Tabletext" style="font-style: italic;">.</span></p>
+<p class="p_Tabletext"><span class="f_Tabletext">&nbsp;</span></p>
+</td>
+<td style="vertical-align:top; width:125px; border: solid 1px #999999;"><p class="p_Tabletext"><span class="f_Tabletext"><a href="http://www.sparxsystems.com/enterprise_architect_user_guide/10/extending_uml_models/createprofile.html">Create a Profile Package</a></span></p>
+<p class="p_Tabletext"><span class="f_Tabletext">&nbsp;</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:28px; border: solid 1px #999999;"><p class="p_Tabletext"><span class="f_Tabletext" style="font-weight: bold;">2</span></p>
+</td>
+<td style="vertical-align:top; width:588px; border: solid 1px #999999;"><p class="p_Tabletext"><span class="f_Tabletext">Double-click on the diagram background to display the diagram Properties dialog and, in the </span><span class="f_MenuKeyField">Notes</span><span class="f_Tabletext"> field, give the diagram an alias and a description in the following format:</span><br>
+<span class="f_Tabletext">&nbsp;</span></p>
+<p class="p_Code" style="margin: 0px 0px 0px 49px;"><span class="f_Code">Alias=MyClass;Notes=Structural elements for Class diagrams;</span><br>
+<span class="f_Code">&nbsp;</span><br>
+<span class="f_Code">&nbsp;</span></p>
+</td>
+<td style="vertical-align:top; width:125px; border: solid 1px #999999;"><p class="p_Tabletext"><span class="f_Tabletext">&nbsp;</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:28px; border: solid 1px #999999;"><p class="p_Tabletext"><span class="f_Tabletext" style="font-weight: bold;">3</span></p>
+</td>
+<td style="vertical-align:top; width:588px; border: solid 1px #999999;"><p class="p_Tabletext"><span class="f_Tabletext">On the diagram, create a Metaclass element with the name </span><span class="f_Tabletext" style="font-weight: bold;">ToolboxPage</span><span class="f_Tabletext">.</span></p>
+</td>
+<td style="vertical-align:top; width:125px; border: solid 1px #999999;"><p class="p_Tabletext"><span class="f_Tabletext"><a href="http://www.sparxsystems.com/enterprise_architect_user_guide/10/extending_uml_models/addingelementsandmetaclass.html">Add Stereotypes and Metaclasses</a></span></p>
+<p class="p_Tabletext"><span class="f_Tabletext">&nbsp;</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:28px; border: solid 1px #999999;"><p class="p_Tabletext"><span class="f_Tabletext" style="font-weight: bold;">4</span></p>
+</td>
+<td style="vertical-align:top; width:588px; border: solid 1px #999999;"><p class="p_Tabletext"><span class="f_Tabletext">Create a Stereotype element for each of the Toolbox pages to create within your Toolbox, such as </span><span class="f_Tabletext" style="font-style: italic;">MyClassElements</span><span class="f_Tabletext"> and </span><span class="f_Tabletext" style="font-style: italic;">MyClassRelationships.</span></p>
+<p class="p_Tabletext"><span class="f_Tabletext">Double-click on each element to display the Properties dialog and, in the </span><span class="f_Tabletext" style="font-weight: bold;">Alias</span><span class="f_Tabletext"> field, type the text to display in the title bar of the corresponding Toolbox page, such as </span><span class="f_Tabletext" style="font-weight: bold;">My Class Elements</span><span class="f_Tabletext"> or </span><span class="f_Tabletext" style="font-weight: bold;">My Class Relationships</span><span class="f_Tabletext">.</span></p>
+<p class="p_Tabletext"><span class="f_Tabletext">In the </span><span class="f_MenuKeyField">Notes</span><span class="f_Tabletext"> field of each element, type the tool-tip for the corresponding Toolbox page; for example, </span><span class="f_Tabletext" style="font-weight: bold;">Elements for Class Diagrams</span><span class="f_Tabletext"> or </span><span class="f_Tabletext" style="font-weight: bold;">Relationships for Class Diagrams</span><span class="f_Tabletext">.</span></p>
+<p class="p_Tabletext"><span class="f_Tabletext">Create an Extension connector between each Stereotype element and the </span><span class="f_Tabletext" style="font-weight: bold;">ToolboxPage</span><span class="f_Tabletext"> Metaclass element.</span></p>
+<p class="p_Tabletext"><span class="f_Tabletext">&nbsp;</span></p>
+</td>
+<td style="vertical-align:top; width:125px; border: solid 1px #999999;"><p class="p_Tabletext"><span class="f_Tabletext"><a href="http://www.sparxsystems.com/enterprise_architect_user_guide/10/extending_uml_models/addingelementsandmetaclass.html">Add Stereotypes and Metaclasses</a></span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:28px; border: solid 1px #999999;"><p class="p_Tabletext"><span class="f_Tabletext" style="font-weight: bold;">5</span></p>
+</td>
+<td style="vertical-align:top; width:588px; border: solid 1px #999999;"><p class="p_Tabletext"><span class="f_Tabletext">In each of the Stereotype elements, press </span><span class="f_Tabletext" style="font-weight: bold;">F9</span><span class="f_Tabletext"> and create an attribute for each Toolbox item in the page defined by that element.</span></p>
+<p class="p_Tabletext"><span class="f_Tabletext">The name of each 
+attribute is the name of the element or connector to be dropped, 
+including the element's namespace; for example, </span><span class="f_Tabletext" style="font-style: italic;">UML::Package</span><span class="f_Tabletext">, </span><span class="f_Tabletext" style="font-style: italic;">UML::Class</span><span class="f_Tabletext"> and </span><span class="f_Tabletext" style="font-style: italic;">UML::Interface. </span><span class="f_Tabletext">You might not want to display names including text such as </span><span class="f_Tabletext" style="font-style: italic;">UML::Package</span><span class="f_Tabletext"> or </span><span class="f_Tabletext" style="font-style: italic;">UML::Class</span><span class="f_Tabletext"> in your Toolbox, so give the attributes an </span><span class="f_MenuKeyField">Initial Value</span><span class="f_Tabletext"> of, for example, </span><span class="f_Tabletext" style="font-style: italic;">Package</span><span class="f_Tabletext"> or </span><span class="f_Tabletext" style="font-style: italic;">Class.</span></p>
+<p class="p_Tabletext"><span class="f_Tabletext">The Toolbox items 
+display in the same sequence as their attributes in the element, so use 
+the attribute ordering buttons (green up/down arrows) in the Attribute 
+Properties dialog to define the order of icons in your Toolbox page.</span></p>
+<p class="p_Tabletext"><span class="f_Tabletext">In the name of an attribute for an element or connector from </span><span class="f_Tabletext" style="font-weight: bold;">your own</span><span class="f_Tabletext">
+ technology, use your Profile name as the namespace, and then follow the
+ item name with the element or connector type that you are extending, in
+ brackets (to identify to Enterprise Architect what type of object to 
+create); for example, a SysML Block element would appear as:</span><br>
+<span class="f_Tabletext">&nbsp;</span></p>
+<p class="p_Tabletext"><span class="f_Tabletext"> &nbsp; &nbsp;  </span><span class="f_Tabletext" style="font-style: italic;">SysML::Block(UML::Class)</span></p>
+<p class="p_Tabletext"><span class="f_Tabletext">&nbsp;</span></p>
+<p class="p_Tabletext"><span class="f_Tabletext">Many elements and connectors can be extended for use in Toolboxes.</span></p>
+<p class="p_Tabletext"><span class="f_Tabletext">&nbsp;</span></p>
+</td>
+<td style="vertical-align:top; width:125px; border: solid 1px #999999;"><p class="p_Tabletext"><span class="f_Tabletext">&nbsp;</span></p>
+<p class="p_Tabletext"><span class="f_Tabletext">&nbsp;</span></p>
+<p class="p_Tabletext"><span class="f_Tabletext">&nbsp;</span></p>
+<p class="p_Tabletext"><span class="f_Tabletext">&nbsp;</span><br>
+<span class="f_Tabletext">&nbsp;</span></p>
+<p class="p_Tabletext"><span class="f_Tabletext"><a href="http://www.sparxsystems.com/enterprise_architect_user_guide/10/modeling_basics/attributesmainpage.html">General Properties of Attributes</a></span></p>
+<p class="p_Tabletext"><span class="f_Tabletext">&nbsp;</span></p>
+<p class="p_Tabletext"><span class="f_Tabletext">&nbsp;</span></p>
+<p class="p_Tabletext"><span class="f_Tabletext">&nbsp;</span></p>
+<p class="p_Tabletext"><span class="f_Tabletext">&nbsp;</span></p>
+<p class="p_Tabletext"><span class="f_Tabletext"><a href="http://www.sparxsystems.com/enterprise_architect_user_guide/10/extending_uml_models/elements_used_in_toolboxes.html">Elements Used in Toolboxes</a></span></p>
+<p class="p_Tabletext"><span class="f_Tabletext"><a href="http://www.sparxsystems.com/enterprise_architect_user_guide/10/extending_uml_models/connectors_used_in_toolboxes.html">Connectors Used in Toolboxes</a></span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:28px; border: solid 1px #999999;"><p class="p_Tabletext"><span class="f_Tabletext" style="font-weight: bold;">6</span></p>
+</td>
+<td style="vertical-align:top; width:588px; border: solid 1px #999999;"><p class="p_Tabletext"><span class="f_Tabletext">To define a Toolbox item to drop a </span><span class="f_Tabletext" style="font-weight: bold;">Pattern</span><span class="f_Tabletext"> onto a diagram, name the attribute:</span><br>
+<span class="f_Tabletext">&nbsp;</span></p>
+<p class="p_Tabletext"><span class="f_Tabletext" style="font-style: italic;"> &nbsp; &nbsp; My Technology::MyPattern(UMLPattern)</span><br>
+<span class="f_Tabletext" style="font-style: italic;">&nbsp;</span></p>
+<p class="p_Tabletext"><span class="f_Tabletext" style="font-style: italic;">MyTechnology</span><span class="f_Tabletext"> is the ID of the technology and </span><span class="f_Tabletext" style="font-style: italic;">MyPattern</span><span class="f_Tabletext"> is the name of the Pattern to drop; for example:</span><br>
+<span class="f_Tabletext">&nbsp;</span></p>
+<p class="p_Tabletext"><span class="f_Tabletext"> &nbsp; &nbsp; </span><span class="f_Tabletext" style="font-style: italic;">BusFramework::Builder(UMLPattern)</span><br>
+<span class="f_Tabletext" style="font-style: italic;">&nbsp;</span></p>
+<p class="p_Tabletext"><span class="f_Tabletext">If you want to avoid displaying the Add Pattern dialog, replace</span><span class="f_Tabletext" style="font-style: italic;"> (UMLPattern)</span><span class="f_Tabletext"> with</span><span class="f_Tabletext" style="font-style: italic;"> (UMLPatternSilent)</span><span class="f_Tabletext">.</span></p>
+<p class="p_Tabletext"><span class="f_Tabletext">To define a </span><span class="f_Tabletext" style="font-weight: bold;">model-based Pattern</span><span class="f_Tabletext"> in a custom Toolbox (such as the GoF Patterns), create an attribute with a name of the format:</span></p>
+<p class="p_Tabletext"><span class="f_Tabletext">&nbsp;</span><br>
+<span class="f_Tabletext" style="font-style: italic;"> &nbsp; &nbsp; PatternCategory::PatternName(UMLPattern)</span></p>
+<p class="p_Tabletext"><span class="f_Tabletext">&nbsp;</span><br>
+<span class="f_Tabletext">For example:</span></p>
+<p class="p_Tabletext"><span class="f_Tabletext">&nbsp;</span><br>
+<span class="f_Tabletext"> &nbsp; &nbsp; </span><span class="f_Tabletext" style="font-style: italic;">GoF Behavioral Patterns::Mediator(UMLPattern)</span></p>
+<p class="p_Tabletext"><span class="f_Tabletext">&nbsp;</span></p>
+</td>
+<td style="vertical-align:top; width:125px; border: solid 1px #999999;"><p class="p_Tabletext"><span class="f_Tabletext">&nbsp;</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:28px; border: solid 1px #999999;"><p class="p_Tabletext"><span class="f_Tabletext" style="font-weight: bold;">7</span></p>
+</td>
+<td style="vertical-align:top; width:588px; border: solid 1px #999999;"><p class="p_Tabletext"><span class="f_Tabletext">Define
+ any attributes you need to modify the display of the Toolbox pages, 
+such as whether the Toolbox pages are minimized or displayed without 
+item names (labels).</span></p>
+<p class="p_Tabletext"><span class="f_Tabletext">&nbsp;</span></p>
+</td>
+<td style="vertical-align:top; width:125px; border: solid 1px #999999;"><p class="p_Tabletext"><span class="f_Tabletext"><a href="http://www.sparxsystems.com/enterprise_architect_user_guide/10/extending_uml_models/toolbox_page_attributes.html">Toolbox Page Attributes</a></span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:28px; border: solid 1px #999999;"><p class="p_Tabletext"><span class="f_Tabletext" style="font-weight: bold;">8</span></p>
+</td>
+<td style="vertical-align:top; width:588px; border: solid 1px #999999;"><p class="p_Tabletext"><span class="f_Tabletext">To save the Toolbox profile, right-click on the diagram and select the </span><span class="f_UICommand">Save as Profile</span><span class="f_Tabletext"> context menu option.</span></p>
+<p class="p_Tabletext"><span class="f_Tabletext">&nbsp;</span></p>
+</td>
+<td style="vertical-align:top; width:125px; border: solid 1px #999999;"><p class="p_Tabletext"><span class="f_Tabletext"><a href="http://www.sparxsystems.com/enterprise_architect_user_guide/10/extending_uml_models/exportprofile_2.html">Export a Profile</a></span></p>
+</td>
+</tr>
+</tbody></table>
+</div>
+<p class="p_BodyHeading"><span class="f_BodyHeading">Notes</span></p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 2px 0px 5px 27px;"><table style="line-height: normal;" cellspacing="0" cellpadding="0"><tbody><tr style="vertical-align:baseline"><td style="width:17px"><span style="font-size: 9pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #333333;">•</span></td><td><span class="f_Bulletlist1">Each
+ Profile element incorporated into an MDG Toolbox page enables a context
+ menu option to synchronize the Tagged Values and Constraints of all 
+objects created from it</span></td></tr></tbody></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 2px 0px 5px 27px;"><table style="line-height: normal;" cellspacing="0" cellpadding="0"><tbody><tr style="vertical-align:baseline"><td style="width:17px"><span style="font-size: 9pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #333333;">•</span></td><td><span class="f_Bulletlist1">The sequence of Toolbox </span><span class="f_Bulletlist1" style="font-weight: bold;">pages</span><span class="f_Bulletlist1">
+ in the Toolbox is determined by the sequence of their Stereotype 
+elements in the Profile diagram or Profile package; if you create and 
+save the Profile from a:</span></td></tr></tbody></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 2px 0px 5px 48px;"><table style="line-height: normal;" cellspacing="0" cellpadding="0"><tbody><tr style="vertical-align:baseline"><td style="width:17px"><span style="font-size: 9pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #333333;">•</span></td><td><span class="f_Bulletlist3">Diagram, the Toolbox page sequence is determined by the </span><span class="f_Bulletlist3" style="font-weight: bold;">Z-order</span><span class="f_Bulletlist3">
+ of the Stereotype elements on the diagram - the higher the Z-order 
+number of the Stereotype element, the further down the Toolbox its 
+Toolbox page is placed; if you change the Z-order of a Stereotype 
+element in the diagram, it changes the position of the element's page on
+ the Toolbox</span></td></tr></tbody></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 2px 0px 5px 48px;"><table style="line-height: normal;" cellspacing="0" cellpadding="0"><tbody><tr style="vertical-align:baseline"><td style="width:17px"><span style="font-size: 9pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #333333;">•</span></td><td><span class="f_Bulletlist3">Package in the Project Browser, the Toolbox page sequence is determined by the</span><span class="f_Bulletlist3" style="font-weight: bold;"> list order</span><span class="f_Bulletlist3">
+ of the Stereotype elements in the package - the Toolbox page for the 
+first listed element is at the top of the Toolbox; if you re-order the 
+elements in the Project Browser, you produce the same re-ordering of 
+pages in the Toolbox</span><br>
+<span class="f_Bulletlist3">&nbsp;</span></td></tr></tbody></table></div><p class="p_BodyHeading"><span class="f_BodyHeading">Learn more</span></p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 2px 0px 5px 27px;"><table style="line-height: normal;" cellspacing="0" cellpadding="0"><tbody><tr style="vertical-align:baseline"><td style="width:17px"><span style="font-size: 9pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #333333;">•</span></td><td><span class="f_Bulletlist1"><a href="http://www.sparxsystems.com/enterprise_architect_user_guide/10/extending_uml_models/synchronizetagsandconstrain.html">Synchronize Tags and Constraints</a></span></td></tr></tbody></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 2px 0px 5px 27px;"><table style="line-height: normal;" cellspacing="0" cellpadding="0"><tbody><tr style="vertical-align:baseline"><td style="width:17px"><span style="font-size: 9pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #333333;">•</span></td><td><span class="f_Bulletlist1"><a href="http://www.sparxsystems.com/enterprise_architect_user_guide/10/modeling_basics/zorderelements.html">Z Order Elements</a></span></td></tr></tbody></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 2px 0px 5px 27px;"><table style="line-height: normal;" cellspacing="0" cellpadding="0"><tbody><tr style="vertical-align:baseline"><td style="width:17px"><span style="font-size: 9pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #333333;">•</span></td><td><span class="f_Bulletlist1"><a href="http://www.sparxsystems.com/enterprise_architect_user_guide/10/modeling_basics/diagramcontextmenu2.html">Diagram Context Menu</a> (</span><span class="f_UICommand">Modify Z-Order</span><span class="f_Bulletlist1"> option)</span></td></tr></tbody></table></div><p class="p_BodyHeading"><span class="f_BodyHeading">Learning Center topics</span></p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 2px 0px 5px 27px;"><table style="line-height: normal;" cellspacing="0" cellpadding="0"><tbody><tr style="vertical-align:baseline"><td style="width:17px"><span style="font-size: 9pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #333333;">•</span></td><td><span class="f_Bulletlist1" style="font-weight: bold;">(Alt+F1)</span><span class="f_Bulletlist1"> </span><span class="f_UICommand">| Modeling Languages | Build a Technology | Create a Custom Toolbox</span><span class="f_Bulletlist1"> </span></td></tr></tbody></table></div>
+
+ <div id="copyright">
+ The material ("material" includes all pages, documents and on-line 
+graphics) on this web site is protected by copyright law. (C) 1998-2013 
+Sparx Systems Pty Ltd.
+ </div>
+ </div>
+ <div class="dropShadow"></div>
+ </div>
+ </div>
+ </div>
+<div id="navbar"><div id="navbar-inner">            <!-- robots content="noindex"  for all except home page -->
+            <div id="primaryline">
+              <ul>
+                <li><img src="Create%20Toolbox%20Profiles%20[Enterprise%20Architect%20User%20Guide]_files/ea.png" alt="Enterprise Architect"><a href="http://www.sparxsystems.com/products/ea/index.html"><span>Enterprise Architect</span></a></li>
+                <li><img src="Create%20Toolbox%20Profiles%20[Enterprise%20Architect%20User%20Guide]_files/products.png" alt="Products"><a href="http://www.sparxsystems.com/products/index.html"><span>Products</span></a></li>
+                <li><img src="Create%20Toolbox%20Profiles%20[Enterprise%20Architect%20User%20Guide]_files/resources.png" alt="Resources"><a href="http://www.sparxsystems.com/resources/index.html"><span>Resources</span></a></li>
+                <li><img src="Create%20Toolbox%20Profiles%20[Enterprise%20Architect%20User%20Guide]_files/forum.png" alt="Forum"><a href="http://www.sparxsystems.com/forums/smf/"><span>Forum</span></a></li>
+                <li><img src="Create%20Toolbox%20Profiles%20[Enterprise%20Architect%20User%20Guide]_files/support.png" alt="Support"><a href="http://www.sparxsystems.com/support/index.html"><span>Support</span></a></li>
+				<li><img src="Create%20Toolbox%20Profiles%20[Enterprise%20Architect%20User%20Guide]_files/services.png" alt="Services"><a href="http://www.sparxsystems.com/partners/index.html"><span>Services</span></a></li>
+                <li><img src="Create%20Toolbox%20Profiles%20[Enterprise%20Architect%20User%20Guide]_files/login.png" alt="Login"><a href="http://www.sparxsystems.com/registered/index.html"><span>Login</span></a></li>
+              </ul>
+            </div>
+            <div id="secondaryline">
+              <ul>
+                <li><img src="Create%20Toolbox%20Profiles%20[Enterprise%20Architect%20User%20Guide]_files/uml-tutorial.png" alt="UML Tutorial"><a href="http://www.sparxsystems.com/uml-tutorial.html"><span>UML Tutorial</span></a></li>
+                <li><img src="Create%20Toolbox%20Profiles%20[Enterprise%20Architect%20User%20Guide]_files/about-us.png" alt="About Us"><a href="http://www.sparxsystems.com/about.html"><span>About Us</span></a></li>
+                <li><img src="Create%20Toolbox%20Profiles%20[Enterprise%20Architect%20User%20Guide]_files/viewcheckout.png" alt="Shopping Cart"><a href="http://www.sparxsystems.com/products/ea/purchase.html"><span>Buy</span></a></li>
+                <li id="shopping-cart-links"><a href="https://secure.shareit.com/shareit/cart.html?stylefrom=300136922&amp;backlink=http://www.sparxsystems.com/" id="view-cart-link"><span>View / </span></a><a href="https://secure.shareit.com/shareit/checkout.html?stylefrom=300136922&amp;backlink=http://www.sparxsystems.com/" id="checkout-cart-link"><span>Checkout</span></a></li>
+				<li style="padding: 8px;">
+				<form id="Searchform" action="/cgi-bin/search/search.pl" method="get">
+				<input style="width:110px; height:14px; font-size:10px; margin-top:-1px; vertical-align:middle;" name="Terms" onfocus="this.value = '';" value=" Search... " id="zoom_searchbox" class="zoom_searchbox" type="text">
+				<select style="height:20px; font-size:10px;margin-top:-1px;vertical-align:middle;"><option value="Sparx Systems Web" selected="selected">Sparx Systems</option><option value="EA User Guide">EA User Guide</option> </select>
+				<input src="Create%20Toolbox%20Profiles%20[Enterprise%20Architect%20User%20Guide]_files/search.gif" name="submit" style="margin-bottom: -6px;" alt="Search" type="image"></form>
+				</li>
+              </ul>
+            </div></div></div>
+
+ <div id="sidebar-left">
+ <div id="sidebar-left-inner">
+ <div class="block">
+ <h2 class="title">See Also</h2>
+ <div class="content">
+ <ul><li><a href="http://www.sparxsystems.com/enterprise_architect_user_guide/10/extending_uml_models/toolbox_page_attributes.html" class="Page">Toolbox Page Attributes</a></li>
+</ul>
+ </div>
+ </div>
+ <style>
+  #sidebar-left #advert
+  {
+    background-color: #0066CB;
+  }
+
+  #sidebar-left #advert .content
+  {
+    background: #FFF url('/uml_tool_guide/images/advert.png') 0 bottom no-repeat;
+    height: 225px;
+  }
+
+  #sidebar-left #advert .content H2
+  {
+    margin: 0;
+    padding: 10px 0 0;
+    text-align: center;
+  }
+
+  #sidebar-left #advert .content P
+  {
+    font-size: 0.733em;
+    padding: 10px 0 0 75px;
+  }
+
+  #sidebar-left #advert UL
+  {
+    list-style: none;
+    margin: 0 !important;
+  }
+
+  #sidebar-left #advert UL LI
+  {
+    float: left;
+    padding: 9px 16px 11px 0;
+  }
+
+  #sidebar-left #advert UL LI A
+  {
+    background-color: #0066CB;
+    background-image: none;
+    color: #FFF !important;
+    display: block;
+    font-weight: bold;
+    width: auto;
+  }
+
+  #sidebar-left #advert UL LI A:Active,
+  #sidebar-left #advert UL LI A:Hover
+  {
+    text-decoration: underline;
+  }
+</style>
+<div class="dropShadow"></div>
+<div id="advert" class="block clear-block">
+  <div class="content">
+    <h2>UML TOOLS</h2>
+    <p>
+      <em>for</em> BUSINESS,<br>
+      &nbsp;&nbsp;&nbsp;&nbsp; SOFTWARE &amp;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp; SYSTEMS
+    </p>
+  </div>
+  <ul>
+    <li>
+      <a href="http://www.sparxsystems.com/index.html">Home</a>
+    </li>
+    <li>
+      <a href="http://www.sparxsystems.com/products/ea/trial.html">Trial</a>
+    </li>
+    <li>
+      <a href="http://www.sparxsystems.com/products/ea/index.html">Learn More</a>
+    </li>
+  </ul>
+</div>
+
+ </div>
+ </div>
+ </div>
+ </div>
+ <div id="footer">
+ <div id="footer-inner" class="clear-block">
+ <div id="layoutCopyright"> 
+ <div class="header">
+ <div class="dropShadow"></div>
+ <a href="http://www.sparxsystems.com/"><img src="Create%20Toolbox%20Profiles%20[Enterprise%20Architect%20User%20Guide]_files/sparx.png" alt="Sparx Systems" class="transparentPNG" width="143" height="34" border="0"></a>
+ </div>
+ <div class="content">
+ <ul>
+ <li class="category"><a href="http://www.sparxsystems.com/products/index.html">Products</a></li>
+ <li><a href="http://www.sparxsystems.com/products/ea/index.html">Enterprise Architect</a></li>
+ <li><a href="http://www.sparxsystems.com/products/mdg/int/eclipse/index.html">Eclipse Integration</a></li>
+ <li><a href="http://www.sparxsystems.com/products/mdg/int/vs/index.html">Visual Studio Integration</a></li>
+ <li><a href="http://www.sparxsystems.com/products/mdg/tech/sysml/index.html">SysML Technology</a></li>
+ <li><a href="http://www.sparxsystems.com/products/mdg/tech/dds/index.html">DDS Technology</a></li>
+ <li><a href="http://www.sparxsystems.com/products/mdg/link/doors/index.html">DOORS Link</a></li>
+ <li><a href="http://www.sparxsystems.com/products/3rdparty.html">Additional Addins</a></li>
+ </ul>
+ <ul>
+ <li class="category"><a href="http://www.sparxsystems.com/platforms/uml.html">UML at a Glance</a></li>
+ <li><a href="http://www.sparxsystems.com/platforms/uml.html">UML</a></li>
+ <li><a href="http://www.sparxsystems.com/platforms/uml_tool.html">UML Tools</a></li>
+ <li><a href="http://www.sparxsystems.com/platforms/php_uml.html">PHP UML Modeling</a></li>
+ <li><a href="http://www.sparxsystems.com/platforms/business_process_modeling.html">Business Process Modeling</a></li>
+ <li><a href="http://www.sparxsystems.com/platforms/mda_tool.html">Model Driven Architecture</a></li>
+ <li><a href="http://www.sparxsystems.com/platforms/requirements_management.html">Requirements Management</a></li>
+ <li><a href="http://www.sparxsystems.com/platforms/software_development.html">Software Development</a></li>
+ </ul>
+ <ul>
+ <li class="category"><a href="http://www.sparxsystems.com/solutions/index.html">Solutions</a></li>
+ <li><a href="http://www.sparxsystems.com/solutions/corporate.html">Corporate</a></li>
+ <li><a href="http://www.sparxsystems.com/solutions/government.html">Government</a></li>
+ <li><a href="http://www.sparxsystems.com/solutions/sme.html">Small/Medium Enterprise</a></li>
+ <li><a href="http://www.sparxsystems.com/solutions/professionals.html">IT Professionals</a></li>
+ <li><a href="http://www.sparxsystems.com/solutions/trainers.html">Trainers</a></li>
+ <li><a href="http://www.sparxsystems.com/solutions/academic.html">Academic</a></li>
+ </ul>
+ <ul>
+ <li class="category"><a href="http://www.sparxsystems.com/resources/index.html">Resources</a></li>
+ <li><a href="http://www.sparxsystems.com/resources/uml2_tutorial/index.html">UML 2.0 Tutorial</a></li>
+ <li><a href="http://www.sparxsystems.com/resources/mdg_tech/index.html">MDG Technologies</a></li>
+ <li><a href="http://www.sparxsystems.com/resources/corporate/index.html">Corporate Resources</a></li>
+ <li><a href="http://www.sparxsystems.com/resources/developers/index.html">Developer Resources</a></li>
+ <li><a href="http://www.sparxsystems.com/press/index.html">Media Resources</a></li>
+ </ul>
+ <ul>
+ <li class="category"><a href="http://www.sparxsystems.com/support/index.html">Support</a></li>
+ <li><a href="http://www.sparxsystems.com/EAUserGuide/index.html">Online Manual</a></li>
+ <li><a href="http://www.sparxsystems.com/forums/smf/">User Forum</a></li>
+ <li><a href="http://www.sparxsystems.com/support/bug_report.html">Report a Bug</a></li>
+ <li><a href="http://www.sparxsystems.com/support/feature_request.html">Feature Request</a></li>
+ <li><a href="http://www.sparxsystems.com/support/change_email.html">Change Your Email</a></li>
+ </ul>
+ <ul>
+ <li class="category"><a href="http://www.sparxsystems.com/partners/index.html">Global Partners</a></li>
+ <li><a href="http://www.sparxsystems.com/partners/trainers.html">Trainers</a></li>
+ <li><a href="http://www.sparxsystems.com/partners/vars.html">Value Added Resellers</a></li>
+ <li><a href="http://www.sparxsystems.com/partners/resellers.html">Resellers</a></li>
+ <li><a href="http://www.sparxsystems.com/partners/sistercompanies.html">Sister Companies</a></li>
+ <li><a href="http://www.sparxsystems.com/partners/technical.html">Technical Partners</a></li>
+ <li><a href="http://www.sparxsystems.com/partners/standards.html">Standards Organizations</a></li>
+ </ul>
+ </div>
+ <div class="copyright">
+ <ul>
+ <li>© 2000 - 2013 <a href="http://www.sparxsystems.com/"><strong>Sparx Systems Pty Ltd.</strong></a> All rights Reserved.</li>
+ <li><a href="http://www.sparxsystems.com/legal.html">Legal</a></li>
+ <li><a href="http://www.sparxsystems.com/privacy.html">Privacy</a></li>
+ <li><a href="http://www.sparxsystems.com/sitemap.html">Site map</a></li>
+ </ul>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+
+</div>
+
+<script language="javascript" type="text/javascript">
+ var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+ document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="Create%20Toolbox%20Profiles%20[Enterprise%20Architect%20User%20Guide]_files/ga.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+ var pageTracker = _gat._getTracker("UA-30239-1");
+ pageTracker._initData();
+ pageTracker._trackPageview();
+</script>
+
+
+
+</body></html>
