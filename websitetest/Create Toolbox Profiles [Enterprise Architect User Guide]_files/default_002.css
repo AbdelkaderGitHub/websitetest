@@ -1,0 +1,450 @@
+/* Text Styles */
+hr { color: #000000}
+body, table, tr, th /* Normal */
+{
+ font-size: 9pt;
+ font-family: 'Arial';
+ font-style: normal;
+ font-weight: normal;
+ color: #000000;
+ text-decoration: none;
+}
+#advert{ display:none!important;}
+span.f_BodyHeading /* Body Heading */
+{
+ font-weight: bold;
+ color: #333333;
+ text-decoration: underline;
+}
+span.f_BodyText /* BodyText */
+{
+ color: #333333;
+}
+span.f_Bulletlist1 /* Bullet list 1 */
+{
+ color: #333333;
+}
+span.f_Bulletlist2 /* Bullet list 2 */
+{
+ color: #333333;
+}
+span.f_Bulletlist3 /* Bullet list 3 */
+{
+ color: #333333;
+}
+span.f_Bullet1First /* Bullet1 First */
+{
+ color: #333333;
+}
+span.f_Bullet1Last /* Bullet1 Last */
+{
+ color: #333333;
+}
+span.f_Code /* Code */
+{
+ font-size: 8pt;
+ font-family: 'Courier';
+}
+span.f_CodeExample /* Code Example */
+{
+ font-size: 8pt;
+ font-family: 'Courier New';
+}
+span.f_Comment /* Comment */
+{
+}
+span.f_Dec2010 /* Dec2010 */
+{
+ font-size: 10pt;
+}
+span.f_Glossaryitem /* Glossaryitem */
+{
+ font-style: italic;
+ font-weight: bold;
+}
+span.f_Glossarytext /* Glossarytext */
+{
+}
+span.f_Heading1 /* Heading1 */
+{
+ font-size: 18pt;
+ font-weight: bold;
+ color: #003399;
+}
+span.f_ImageCaption /* Image Caption */
+{
+ font-size: 8pt;
+ font-weight: bold;
+}
+span.f_MenuKeyField /* MenuKeyField */
+{
+ font-weight: bold;
+}
+span.f_NormalText /* Normal Text */
+{
+}
+span.f_NoteBulletlist /* Note Bullet list */
+{
+ font-style: italic;
+ color: #333333;
+}
+span.f_NoteHyperLink /* Note HyperLink */
+{
+ font-style: italic;
+ color: #0000ff;
+ text-decoration: underline;
+}
+span.f_Notes /* Notes */
+{
+}
+span.f_NumberedList /* Numbered List */
+{
+ color: #333333;
+}
+span.f_OMGText /* OMGText */
+{
+ font-style: italic;
+}
+span.f_SeeAlso /* SeeAlso */
+{
+ font-weight: bold;
+ color: #000066;
+ text-decoration: underline;
+}
+span.f_SubHeadingL1 /* Sub Heading L1 */
+{
+ font-size: 11pt;
+ font-weight: bold;
+ color: #3e59b7;
+}
+span.f_SubHeadingL2 /* Sub Heading L2 */
+{
+ font-size: 10pt;
+ font-weight: bold;
+}
+span.f_SubMenu /* SubMenu */
+{
+ font-size: 10pt;
+ font-weight: bold;
+ color: #525252;
+}
+span.f_Tableheader /* Tableheader */
+{
+ color: #333333;
+}
+span.f_Tabletext /* Tabletext */
+{
+}
+span.f_TextIndentedL1 /* Text Indented L1 */
+{
+}
+span.f_TextIndentedL2 /* Text Indented L2 */
+{
+}
+span.f_TiporNote /* Tip or Note */
+{
+ font-weight: bold;
+ color: #000066;
+}
+span.f_TiporNoteinnumlist /* Tip or Note in numlist */
+{
+ font-style: italic;
+}
+span.f_TiporNoteText /* Tip or Note Text */
+{
+ color: #000066;
+}
+span.f_UICommand /* UI Command */
+{
+ font-weight: bold;
+ color: #800000;
+}
+span.f_UIControl /* UI Control */
+{
+ font-weight: bold;
+ color: #800000;
+}
+span.f_WhiteHyperlink /* WhiteHyperlink */
+{
+ font-size: 8pt;
+ color: #ffffff;
+}
+/* Paragraph styles */
+p /* Normal */
+{
+ text-align: left;
+ text-indent: 0px;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 13px;
+}
+.p_BodyHeading /* Body Heading */
+{
+ margin: 19px 0px 14px 13px;
+}
+.p_BodyText /* BodyText */
+{
+ margin: 5px 0px 10px 13px;
+}
+.p_Bulletlist1 /* Bullet list 1 */
+{
+ text-indent: -17px;
+ margin: 2px 0px 5px 44px;
+}
+.p_Bulletlist2 /* Bullet list 2 */
+{
+ text-indent: -17px;
+ margin: 2px 0px 5px 48px;
+}
+.p_Bulletlist3 /* Bullet list 3 */
+{
+ text-indent: -17px;
+ margin: 2px 0px 5px 65px;
+}
+.p_Bullet1First /* Bullet1 First */
+{
+ text-indent: -17px;
+ margin: 2px 0px 5px 44px;
+}
+.p_Bullet1Last /* Bullet1 Last */
+{
+ text-indent: -17px;
+ margin: 2px 0px 5px 44px;
+}
+.p_Code /* Code */
+{
+ margin: 0px 0px 0px 27px;
+}
+.p_CodeExample /* Code Example */
+{
+ white-space: nowrap;
+ margin: 0px 0px 0px 0px;
+}
+.p_Comment /* Comment */
+{
+}
+.p_Glossaryitem /* Glossaryitem */
+{
+ margin: 6px 0px 0px 13px;
+}
+.p_Glossarytext /* Glossarytext */
+{
+ margin: 0px 0px 5px 48px;
+}
+.p_Heading1 /* Heading1 */
+{
+ margin: 5px 0px 0px 13px;
+}
+.p_ImageCaption /* Image Caption */
+{
+}
+.p_MenuKeyField /* MenuKeyField */
+{
+}
+.p_NormalText /* Normal Text */
+{
+ margin: 0px 0px 19px 48px;
+}
+.p_NoteBulletlist /* Note Bullet list */
+{
+ text-indent: -17px;
+ margin: 2px 0px 5px 69px;
+}
+.p_NoteHyperLink /* Note HyperLink */
+{
+ margin: 0px 0px 0px 53px;
+}
+.p_Notes /* Notes */
+{
+}
+.p_NumberedList /* Numbered List */
+{
+ text-indent: -21px;
+ margin: 2px 0px 0px 34px;
+}
+.p_OMGText /* OMGText */
+{
+ margin: 5px 0px 5px 13px;
+}
+.p_SeeAlso /* SeeAlso */
+{
+ margin: 14px 0px 0px 13px;
+}
+.p_SubHeadingL1 /* Sub Heading L1 */
+{
+ margin: 29px 0px 0px 13px;
+}
+.p_SubHeadingL2 /* Sub Heading L2 */
+{
+ margin: 10px 0px 10px 13px;
+}
+.p_Tableheader /* Tableheader */
+{
+ margin: 5px 0px 5px 2px;
+}
+.p_Tabletext /* Tabletext */
+{
+ margin: 4px 2px 4px 2px;
+}
+.p_TextIndentedL1 /* Text Indented L1 */
+{
+ margin: 0px 0px 19px 13px;
+}
+.p_TextIndentedL2 /* Text Indented L2 */
+{
+ margin: 14px 0px 14px 13px;
+}
+.p_TiporNote /* Tip or Note */
+{
+ border-color: #c8cdde;
+ border-style: solid;
+ border-width: 2px;
+ border-top: none;
+ border-right: none;
+ border-left: none;
+ margin: 4px 0px 2px 1px;
+}
+.p_TiporNoteinnumlist /* Tip or Note in numlist */
+{
+ margin: 5px 0px 5px 48px;
+}
+.p_TiporNoteText /* Tip or Note Text */
+{
+ margin: 1px 0px 7px 1px;
+}
+.p_WhiteHyperlink /* WhiteHyperlink */
+{
+ text-align: right;
+ margin: 0px 0px 0px 0px;
+}
+
+/*footer*/
+#footer {
+  background: #fff none repeat scroll 0 0;
+  padding: 0px;
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+#footer A {
+  color: #666;
+  line-height: normal;
+  text-decoration: none;
+}
+#footer A:active, #footer A:hover {
+  text-decoration: underline;
+}
+#footer UL {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#footer UL LI {
+  color: #666;
+  font-size: 9px;
+}
+.logo-image-footer {
+  display: block;
+  float: left;
+  height: 34px;
+  margin: 10px 0 10px 20px;
+  width: 143px;
+}
+.fcontent {
+  margin: 30px auto 10px;
+  line-height: 0.6111em;
+  overflow:hidden;
+  width:930px;    
+}
+
+.fcontent UL LI {
+  padding-bottom: 3px;
+}
+.fcontent UL LI.category A {
+  font-weight: bold;
+  clear: both;
+}
+
+#footer .copyright {
+  border-top: 1px solid #ccc;
+  margin: 0px 35px 20px 35px;
+  padding: 18px 0px 18px 0px;
+}
+#footer .copyrightitems {   
+  color: #666;
+  font-size: 9px;
+  margin-bottom: 10px;
+  float:left;
+}
+#footer .copyrightitems A {  
+  border-right: 1px solid #ccc;  
+  float: left;
+  padding: 3px 10px;
+}
+#footer .header {
+  background-color: #f0f0f0;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  overflow:hidden;
+}
+#Signup {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #000;
+  font-size: 11px;
+  margin: 10px;
+  padding: 5px;
+  text-align:center;
+  float:right;
+  margin-right:100px;
+}
+.social {display:block;}
+.social ul li {
+  float: right;
+  margin-right: 5px;
+  padding-right: 5px;
+  position: relative;
+}
+.row { 
+  width:100%;
+  overflow:hidden;
+}
+.md { 
+  float:left; margin-bottom:5px;width:155px;
+}
+a.mainmenu {display:none; width:100px;}
+
+@media only screen and (max-width: 1000px) {
+ #footer {  max-width:980px;width:auto!important;}
+ #page {width:auto!important;}
+ .fcontent { max-width:930px; margin-left:15px;}
+ .md { width:155px;}
+ /*support 1000 wide mid section style*/
+ 
+}
+@media only screen and (max-width: 900px) {
+ #footer {  max-width:880px;width:auto!important;}
+ .fcontent {max-width:740px; margin-left:15px;}
+ .md { width:140px;}
+ 
+}
+@media only screen and (max-width: 800px) {
+ #footer {  max-width:760px;width:auto!important;;}
+ .fcontent { max-width:720px; margin-left:15px;}
+ #Signup { float:left; margin-left:100px;}
+ .md { width:120px;}  
+}
+@media only screen and (max-width: 700px) {
+  #footer {  max-width:680px;width:auto!important;}
+ .fcontent { max-width:630px; margin-left:15px;}
+ #Signup { float:left;margin-left:25px;}
+ .md { width:105px;}
+ .social {clear:both; float:left}
+}
+@media only screen and (max-width: 600px) {
+ #footer {  max-width:560px; width:auto!important;;}
+ .md {	width:100%;	} 
+ #Signup { clear:both; float:left; width:300px;margin-left:15px;}
+ .social { clear:both; float:left}
+ .copyrightitems { clear:both; float:left}
+ .copyright { margin-left:10px;}
+}
+
+
